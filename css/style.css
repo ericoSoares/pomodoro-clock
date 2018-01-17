@@ -1,0 +1,105 @@
+body {
+  background-color: #e44949;
+  color: white;
+  user-select: none;
+}
+
+#title {
+  font-size: 76px;
+  font-family: Chewy;
+  position: relative;
+  top: 40px;
+}
+
+#mainBody {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  font-family: Chewy;
+}
+
+#timer {
+  margin-top: 70px;
+  background-color: lightgreen;
+  height: 300px;
+  position: relative;
+  bottom: 60px;
+  clip-path: circle(38% at 50% 50%);
+}
+
+#instruction {
+  position: relative;
+  top: -50px;
+}
+
+#time {
+  font-family: monospace;
+  font-size: 80px;
+  cursor: pointer;
+  position: relative;
+  top: -283px;
+  left: 127px;
+  z-index: 3px;
+}
+
+.subTitle {
+  position: relative;
+  top: 10px;
+}
+
+#setter {
+  max-width: 120px;
+  position: relative;
+  left: 300px;
+  top: -20px;
+  font-size: 20px;
+}
+
+#break {
+  max-width: 120px;
+  position: relative;
+  left: 60px;
+  top: 60px;
+  font-size: 20px;
+}
+
+#clear {
+  position: relative;
+  left: 47%;
+  top: -100px;
+  z-index: 3px;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+	font-family: Chewy;
+	font-size: 20px;
+	color: #ffffff;
+	padding: 0px 11px;
+	background-color: #61b242;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	border: 2px solid #FFFFFF;
+	-moz-box-shadow:
+		3px 3px 5px rgba(0,0,0,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0);
+	-webkit-box-shadow:
+		3px 3px 5px rgba(0,0,0,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0);
+	box-shadow:
+		3px 3px 5px rgba(0,0,0,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0);
+}
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+  box-shadow:
+		inset 2px 2px 2px rgba(255,255,255,0);
+}
+
+jumbotron {
+  color: black;
+}
